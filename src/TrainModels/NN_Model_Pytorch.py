@@ -121,20 +121,18 @@ class LSTM_NN(nn.Module):
 
 def scale_cat_drop_cols(df, target_vals=None):
     # from pudb import set_trace; set_trace()
+    cols_to_drop = ['TEAM_ID', 'E_OFF_RATING', 'E_DEF_RATING', 'E_NET_RATING', 
+                'E_TOV_PCT', 'E_USG_PCT', 'E_PACE', 'E_OFF_RATING_RANK', 'E_DEF_RATING_RANK', 
+                'E_NET_RATING_RANK', 'E_TOV_PCT_RANK', 'E_USG_PCT_RANK', 'E_PACE_RANK', 'TEAM_E_OFF_RATING', 
+                'TEAM_E_DEF_RATING', 'TEAM_E_NET_RATING', 'TEAM_E_PACE']
     if target_vals is not None:
         # pathway for training+testing. Keeping DATE for sorting purposes
-        df = df.drop(columns=['TEAM_ID', 'E_OFF_RATING', 'E_DEF_RATING', 'E_NET_RATING', 
-                'E_TOV_PCT', 'E_USG_PCT', 'E_PACE',  
-                'E_OFF_RATING_RANK', 'E_DEF_RATING_RANK', 'E_NET_RATING_RANK', 'E_TOV_PCT_RANK', 
-                'E_USG_PCT_RANK', 'E_PACE_RANK', 'TEAM_E_OFF_RATING', 'TEAM_E_DEF_RATING', 
-                'TEAM_E_NET_RATING', 'TEAM_E_PACE', 'MATCHUP', 'GAME_ID', 'OPP_ID', 'DATE'])
+        cols_to_drop += ['MATCHUP', 'GAME_ID', 'OPP_ID', 'DATE']
+        df = df.drop(columns=cols_to_drop)
     else:
         # pathway for evaluation
         # no longer dropping playerID here so we can use for LSTM stuff...
-        df = df.drop(columns=['TEAM_ID', 'E_OFF_RATING', 'E_DEF_RATING', 'E_NET_RATING', 
-                'E_TOV_PCT', 'E_USG_PCT', 'E_PACE', 'E_OFF_RATING_RANK', 'E_DEF_RATING_RANK', 
-                'E_NET_RATING_RANK', 'E_TOV_PCT_RANK', 'E_USG_PCT_RANK', 'E_PACE_RANK', 'TEAM_E_OFF_RATING', 
-                'TEAM_E_DEF_RATING', 'TEAM_E_NET_RATING', 'TEAM_E_PACE'])
+        df = df.drop(columns=cols_to_drop)
     # try:
     df.astype(float)
     # scaler = StandardScaler()
