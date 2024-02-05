@@ -148,7 +148,7 @@ def load_prize_picks(date, category='all', future=False):
     df.to_sql(f"pp_preds_{date}", con, if_exists="replace")
     con.close()
 
-def display_prize_picks(date, num_picks, category='all', sampling_type='random'):
+def display_prize_picks(date, num_picks, category='all', sampling_type='total'):
     print(f'{Fore.CYAN}{Style.BRIGHT}{category}{Style.RESET_ALL}')
     con = sqlite3.connect("../../Data/games.sqlite")
     df = pd.read_sql_query(f"select * from \"pp_preds_{date}\"", con, index_col="index")
@@ -296,7 +296,7 @@ def get_player_results(date, category='all', specific_player_df=None, get_accura
 
 def load_display_evaluate_pp(date, category):
     load_prize_picks(date, category)
-    display_prize_picks(date, category)
+    # display_prize_picks(date, category)
     accuracy, _, _, _ = evaluate_prize_picks(date, category)
     print(f'accuracy on {date}', accuracy)
 
@@ -507,7 +507,7 @@ def accuracy_across_days(dates, selection_type, num_picks=6, category='all', odd
 # 
  
 dates = ['01-01-2024', '01-02-2024', '01-03-2024', '01-05-2024','01-06-2024','01-07-2024', '01-08-2024', '01-09-2024', '01-10-2024', '01-11-2024', '01-12-2024', '01-15-2024', '01-16-2024',
-'01-17-2024', '01-18-2024', '01-20-2024', '01-22-2024', '01-23-2024', '01-24-2024', '01-25-2024', '01-26-2024', '01-27-2024', '01-28-2024',  '01-29-2024',  '01-30-2024', '01-31-2024', '02-01-2024', '02-02-2024','02-03-2024']
+'01-17-2024', '01-18-2024', '01-20-2024', '01-22-2024', '01-23-2024', '01-24-2024', '01-25-2024', '01-26-2024', '01-27-2024', '01-28-2024',  '01-29-2024',  '01-30-2024', '01-31-2024', '02-01-2024', '02-02-2024','02-03-2024', '02-04-2024']
 # , '02-01-2024', '02-02-2024'
 # week_dates = [['01-01-2024', '01-02-2024', '01-03-2024', '01-05-2024','01-06-2024','01-07-2024', '01-08-2024'], ['01-15-2024', '01-16-2024', '01-17-2024', '01-18-2024', '01-20-2024', '01-22-2024', '01-23-2024']]
 # create df by DATE not category...
@@ -575,7 +575,7 @@ dates = ['01-01-2024', '01-02-2024', '01-03-2024', '01-05-2024','01-06-2024','01
 # print('95th pctile:', np.percentile(profits, 95))
 # print('99th pctile:', np.percentile(profits, 99))
 # for date in dates:
-# load_display_future_data(date='02-04-2024', category='all', num_picks=6, display_only=True, sampling_type='tail')
+# load_display_future_data(date='02-04-2024', category='all', num_picks=6, display_only=False, sampling_type='tail')
 #     daily_accuracy_check(date, 'total', num_picks=6, show_acc=True)
 
 # pairings = list(combinations(['Donovan Mitchell', 'Jarrett Allen', 'Dwight Powell', 'Shai Gilgeous-Alexander', 'Derrick Jones Jr.', 'Kyrie Irving'],2))
