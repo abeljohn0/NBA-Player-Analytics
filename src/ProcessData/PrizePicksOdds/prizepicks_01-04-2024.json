@@ -1,0 +1,4460 @@
+{
+    "data": [
+        {
+            "type": "projection",
+            "id": "1870501",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:18:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 27.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 50,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:20:31-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "56347"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870495",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:13:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 3.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 50,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Assists",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:17:31-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "56347"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "20"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870491",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:10:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 3.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 50,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Rebounds",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:14:57-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "56347"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "22"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870499",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:16:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 2.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 50,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "3-PT Made",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:20:27-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "56347"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "31"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870525",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:26:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 1.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 50,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Blks+Stls",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:28:26-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "56347"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "105"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870517",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:21:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 23.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 50,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:28:44-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "56347"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870513",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:21:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 23.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 50,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:35:47-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "56347"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870475",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:05:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 19.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 50,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:06:55-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "56347"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870514",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:21:00-05:00",
+                "custom_image": null,
+                "description": "SAS",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 47.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 51,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:24:59-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1681"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870502",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:18:00-05:00",
+                "custom_image": null,
+                "description": "SAS",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 54.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 51,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:18:40-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1681"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870522",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:21:00-05:00",
+                "custom_image": null,
+                "description": "SAS",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 19.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 51,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:24:29-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1681"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "245"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870500",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:16:00-05:00",
+                "custom_image": null,
+                "description": "SAS",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 0.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 51,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "3-PT Made",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:19:13-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1681"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "31"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870476",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:05:00-05:00",
+                "custom_image": null,
+                "description": "SAS",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 34.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 51,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:06:28-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1681"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870526",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:26:00-05:00",
+                "custom_image": null,
+                "description": "SAS",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 2.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 51,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Blks+Stls",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:29:43-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1681"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "105"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870518",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:21:00-05:00",
+                "custom_image": null,
+                "description": "SAS",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 41.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 51,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:24:56-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1681"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870523",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:21:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 9.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 52,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:24:56-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87612"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "245"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870527",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:26:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 0.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 52,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Steals",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:27:29-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87612"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "23"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870493",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:10:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 5.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 52,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Rebounds",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:11:29-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87612"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "22"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870515",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:21:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 17.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 52,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:23:33-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87612"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870503",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:18:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 21.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 52,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:19:42-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87612"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870477",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:05:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 11.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 52,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:06:23-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87612"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870519",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:21:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 15.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 52,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:24:29-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87612"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870520",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:21:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 21.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 54,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:26:43-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "173819"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870524",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:21:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 11.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 54,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:24:22-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "173819"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "245"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870494",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:10:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 8.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 54,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Rebounds",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:14:49-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "173819"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "22"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870478",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:05:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 18.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 54,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:14:49-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "173819"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870504",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:18:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 30.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 54,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:19:20-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "173819"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870516",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T23:21:00-05:00",
+                "custom_image": null,
+                "description": "MIL",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "54a8a790-e83b-41c2-b642-dd2e6ebfa0f3",
+                "is_promo": false,
+                "line_score": 27.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 54,
+                "refundable": true,
+                "start_time": "2024-01-04T19:40:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:24:05-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "173819"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870290",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 21.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 100,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:13-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "173396"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870265",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 1.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 100,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "3-PT Made",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:04-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "173396"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "31"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870356",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:36:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 18.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 100,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:37:29-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "173396"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870346",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 13.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 100,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:33:03-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "173396"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870367",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:39:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 9.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 101,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:41:03-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "37691"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "245"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870347",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 20.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 101,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:34:30-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "37691"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870291",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 23.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 101,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:32:35-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "37691"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870357",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:36:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 17.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 101,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:37:29-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "37691"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870201",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 14.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 101,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:01-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "37691"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870292",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 20.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 102,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:13-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "57344"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870202",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 13.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 102,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:17-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "57344"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870348",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 18.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 102,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:34:48-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "57344"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870358",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:36:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 15.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 102,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:37:29-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "57344"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870378",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:47:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 0.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 102,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Steals",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:48:02-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "57344"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "23"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870203",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 22.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 103,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:17-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1290"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870349",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 26.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 103,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:35:37-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1290"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870359",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:36:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 28.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 103,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:37:29-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1290"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870380",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:47:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 0.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 104,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Steals",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:48:08-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "58813"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "23"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870204",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 15.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 104,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:00-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "58813"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870350",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 18.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 104,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:32:39-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "58813"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870294",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 20.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 104,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:57-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "58813"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870360",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:36:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 17.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 104,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:37:29-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "58813"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870361",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:36:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 11.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 105,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:37:29-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87402"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870351",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 11.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 105,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:34:35-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87402"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870381",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:47:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 0.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 105,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Turnovers",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:48:23-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87402"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "24"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870205",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 9.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 105,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:26-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87402"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870266",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 1.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 105,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "3-PT Made",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:23-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "87402"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "31"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870206",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 28.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 106,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:30:45-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "53834"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870295",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 37.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 106,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:13-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "53834"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870267",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 4.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 106,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "3-PT Made",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:32:09-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "53834"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "31"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870352",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 32.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 106,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:32:15-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "53834"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870362",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:36:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 33.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 106,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:39:21-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "53834"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870363",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:36:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 17.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 107,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:40:13-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "2023"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870296",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 24.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 107,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:57-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "2023"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870382",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:47:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 0.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 107,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Blocked Shots",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:48:37-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "2023"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "21"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870353",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 23.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 107,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:32:09-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "2023"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870207",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 16.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 107,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:23-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "2023"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870354",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 16.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 108,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:35:17-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "182459"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870383",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:47:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 0.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 108,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Steals",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:48:24-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "182459"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "23"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870371",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:39:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 7.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 108,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:42:42-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "182459"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "245"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870364",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:36:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 11.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 108,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:41:35-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "182459"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870297",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "DEN",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 17.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 108,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:32:10-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "182459"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870355",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 38.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 109,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:35:06-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1291"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "243"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870365",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:36:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 34.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 109,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:40:01-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1291"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "244"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870298",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 48.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 109,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Pts+Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:31:26-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1291"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "106"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870372",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:39:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 22.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 109,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Rebs+Asts",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T23:09:56-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1291"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "245"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection",
+            "id": "1870209",
+            "attributes": {
+                "adjusted_odds": null,
+                "board_time": "2024-01-03T21:30:00-05:00",
+                "custom_image": null,
+                "description": "GSW",
+                "end_time": null,
+                "flash_sale_line_score": null,
+                "game_id": "e1ad019d-0a50-485a-8daa-b29d2ba737d4",
+                "is_promo": false,
+                "line_score": 25.5,
+                "odds_type": "standard",
+                "projection_type": "Single Stat",
+                "rank": 109,
+                "refundable": true,
+                "start_time": "2024-01-04T22:10:00-05:00",
+                "stat_type": "Points",
+                "status": "pre_game",
+                "tv_channel": null,
+                "updated_at": "2024-01-03T21:30:51-05:00"
+            },
+            "relationships": {
+                "duration": {
+                    "data": null
+                },
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                },
+                "new_player": {
+                    "data": {
+                        "type": "new_player",
+                        "id": "1291"
+                    }
+                },
+                "projection_type": {
+                    "data": {
+                        "type": "projection_type",
+                        "id": "2"
+                    }
+                },
+                "stat_type": {
+                    "data": {
+                        "type": "stat_type",
+                        "id": "19"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "stat_type",
+            "id": "31",
+            "attributes": {
+                "lfg_ignored_leagues": [],
+                "name": "3-PT Made",
+                "rank": 20
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "173819",
+            "attributes": {
+                "combo": false,
+                "display_name": "Victor Wembanyama",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Victor_Wembanyama_98e2cdeb-69dc-499c-a853-84c32c714924.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "San Antonio",
+                "name": "Victor Wembanyama",
+                "position": "F-C",
+                "team": "SAS",
+                "team_name": "Spurs"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "57344",
+            "attributes": {
+                "combo": false,
+                "display_name": "Jonathan Kuminga",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Jonathan_Kuminga_b27687c1-55bb-49e6-9c5b-96a099fda7b7.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "Golden State",
+                "name": "Jonathan Kuminga",
+                "position": "F",
+                "team": "GSW",
+                "team_name": "Warriors"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "stat_type",
+            "id": "21",
+            "attributes": {
+                "lfg_ignored_leagues": [],
+                "name": "Blocked Shots",
+                "rank": 23
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "87612",
+            "attributes": {
+                "combo": false,
+                "display_name": "Jeremy Sochan",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Jeremy_Sochan_4d9e0abc-05aa-45de-be32-b0770697416a.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "San Antonio",
+                "name": "Jeremy Sochan",
+                "position": "F",
+                "team": "SAS",
+                "team_name": "Spurs"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "173396",
+            "attributes": {
+                "combo": false,
+                "display_name": "Chris Paul",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Chris_Paul_942c53e3-7268-44e3-b0a9-fdff55a72c03.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "Golden State",
+                "name": "Chris Paul",
+                "position": "G",
+                "team": "GSW",
+                "team_name": "Warriors"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "stat_type",
+            "id": "245",
+            "attributes": {
+                "lfg_ignored_leagues": [],
+                "name": "Rebs+Asts",
+                "rank": 25
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "87402",
+            "attributes": {
+                "combo": false,
+                "display_name": "Kentavious Caldwell-Pope",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Kentavious_Caldwell-Pope_cecc054e-b9ec-4c71-8bbb-5ee665a8c3a9.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "Denver",
+                "name": "Kentavious Caldwell-Pope",
+                "position": "G",
+                "team": "DEN",
+                "team_name": "Nuggets"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "stat_type",
+            "id": "24",
+            "attributes": {
+                "lfg_ignored_leagues": [],
+                "name": "Turnovers",
+                "rank": 33
+            }
+        },
+        {
+            "type": "stat_type",
+            "id": "244",
+            "attributes": {
+                "lfg_ignored_leagues": [],
+                "name": "Pts+Asts",
+                "rank": 19
+            }
+        },
+        {
+            "type": "stat_type",
+            "id": "243",
+            "attributes": {
+                "lfg_ignored_leagues": [],
+                "name": "Pts+Rebs",
+                "rank": 18
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "53834",
+            "attributes": {
+                "combo": false,
+                "display_name": "Stephen Curry",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Stephen_Curry_8ec91366-faea-4196-bbfd-b8fab7434795.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "Golden State",
+                "name": "Stephen Curry",
+                "position": "G",
+                "team": "GSW",
+                "team_name": "Warriors"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "league",
+            "id": "7",
+            "attributes": {
+                "active": true,
+                "f2p_enabled": true,
+                "icon": "basketball",
+                "image_url": "https://static.prizepicks.com/images/leagues/production/26.svg",
+                "last_five_games_enabled": true,
+                "league_icon_id": 26,
+                "name": "NBA",
+                "projections_count": 0,
+                "rank": 0,
+                "show_trending": false
+            },
+            "relationships": {
+                "projection_filters": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "1681",
+            "attributes": {
+                "combo": false,
+                "display_name": "Giannis Antetokounmpo",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Giannis_Antetokounmpo_6c60282d-165a-4cba-8e5a-4f2d9d4c5905.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "Milwaukee",
+                "name": "Giannis Antetokounmpo",
+                "position": "F",
+                "team": "MIL",
+                "team_name": "Bucks"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "1290",
+            "attributes": {
+                "combo": false,
+                "display_name": "Jamal Murray",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Jamal_Murray_685576ef-ea6c-4ccf-affd-18916baf4e60.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "Denver",
+                "name": "Jamal Murray",
+                "position": "G",
+                "team": "DEN",
+                "team_name": "Nuggets"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "58813",
+            "attributes": {
+                "combo": false,
+                "display_name": "Klay Thompson",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Klay_Thompson__4e152a06-673e-4701-b115-aa7e2cd00d2d.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "Golden State",
+                "name": "Klay Thompson",
+                "position": "G",
+                "team": "GSW",
+                "team_name": "Warriors"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "stat_type",
+            "id": "106",
+            "attributes": {
+                "lfg_ignored_leagues": [],
+                "name": "Pts+Rebs+Asts",
+                "rank": 1
+            }
+        },
+        {
+            "type": "stat_type",
+            "id": "23",
+            "attributes": {
+                "lfg_ignored_leagues": null,
+                "name": "Steals",
+                "rank": 24
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "37691",
+            "attributes": {
+                "combo": false,
+                "display_name": "Aaron Gordon",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Aaron_Gordon_20f85838-0bd5-4c1f-ab85-a308bafaf5bc.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "Denver",
+                "name": "Aaron Gordon",
+                "position": "F",
+                "team": "DEN",
+                "team_name": "Nuggets"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "2023",
+            "attributes": {
+                "combo": false,
+                "display_name": "Michael Porter Jr.",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Michael_Porter_Jr._3a7d6510-00e9-4265-81df-864a1f547269.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "Denver",
+                "name": "Michael Porter Jr.",
+                "position": "F",
+                "team": "DEN",
+                "team_name": "Nuggets"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "projection_type",
+            "id": "2",
+            "attributes": {
+                "name": "Single Stat"
+            }
+        },
+        {
+            "type": "stat_type",
+            "id": "20",
+            "attributes": {
+                "lfg_ignored_leagues": [],
+                "name": "Assists",
+                "rank": 2
+            }
+        },
+        {
+            "type": "stat_type",
+            "id": "105",
+            "attributes": {
+                "lfg_ignored_leagues": null,
+                "name": "Blks+Stls",
+                "rank": 31
+            }
+        },
+        {
+            "type": "stat_type",
+            "id": "19",
+            "attributes": {
+                "lfg_ignored_leagues": [],
+                "name": "Points",
+                "rank": 0
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "182459",
+            "attributes": {
+                "combo": false,
+                "display_name": "Trayce Jackson-Davis",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Trayce_Jackson-Davis_7df31401-85c4-449f-bc87-f605145ef7ba.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "Golden State",
+                "name": "Trayce Jackson-Davis",
+                "position": "F",
+                "team": "GSW",
+                "team_name": "Warriors"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "1291",
+            "attributes": {
+                "combo": false,
+                "display_name": "Nikola Jokic",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Nikola_Jokic_f2625432-3903-4f90-9b0b-2e4f63856bb0.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "Denver",
+                "name": "Nikola Jokic",
+                "position": "C",
+                "team": "DEN",
+                "team_name": "Nuggets"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "new_player",
+            "id": "56347",
+            "attributes": {
+                "combo": false,
+                "display_name": "Devin Vassell",
+                "image_url": "https://static.prizepicks.com/images/players/nba/Devin_Vassell_fe215630-2dc5-4573-95cc-c1b14abbbbcd.webp",
+                "league": "NBA",
+                "league_id": 7,
+                "market": "San Antonio",
+                "name": "Devin Vassell",
+                "position": "G",
+                "team": "SAS",
+                "team_name": "Spurs"
+            },
+            "relationships": {
+                "league": {
+                    "data": {
+                        "type": "league",
+                        "id": "7"
+                    }
+                }
+            }
+        },
+        {
+            "type": "stat_type",
+            "id": "22",
+            "attributes": {
+                "lfg_ignored_leagues": [],
+                "name": "Rebounds",
+                "rank": 1
+            }
+        }
+    ],
+    "links": {
+        "self": "api.prizepicks.com/projections?league_id=7\u0026per_page=250\u0026state_code=TX\u0026single_stat=true"
+    },
+    "meta": {
+        "current_page": 1,
+        "total_pages": 1
+    }
+}
