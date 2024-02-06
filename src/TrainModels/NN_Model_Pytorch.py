@@ -456,14 +456,14 @@ def eval(model, test_sample, dirpath, category, future=False):
     model.load_state_dict(loaded_model_state_dict)
     dset_arr, updated_df = create_training_tensor_lstm(category, pp_eval=True)
     # from pudb import set_trace; set_trace()
-    days_prior = test_sample['GAMES_FROM_PRESENT'].values[0]
-    if days_prior == 0:
+    games_prior = test_sample['GAMES_FROM_PRESENT'].values[0]
+    if games_prior == 0:
             if future:
                 last_five = updated_df[updated_df['PLAYER_ID'] == test_sample['PLAYER_ID'].values[0]].tail().index
             else:
                 last_five = updated_df[updated_df['PLAYER_ID'] == test_sample['PLAYER_ID'].values[0]].tail(6).index[:-1]
     else:
-        last_five = updated_df[updated_df['PLAYER_ID'] == test_sample['PLAYER_ID'].values[0]].tail(5+days_prior).index[:-days_prior]
+        last_five = updated_df[updated_df['PLAYER_ID'] == test_sample['PLAYER_ID'].values[0]].tail(5+(games_prior+1)).index[:-(games_prior+1)]
     test_sample = test_sample.drop(columns=['GAMES_FROM_PRESENT'])
     context = dset_arr[last_five, :]
     if len(context) < 5:
