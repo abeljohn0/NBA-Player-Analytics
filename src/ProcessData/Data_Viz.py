@@ -34,7 +34,7 @@ g.set_titles(col_template="uh", row_template="idk")
 # Adjust the layout for better spacing
 plt.subplots_adjust(top=0.9)
 g.fig.suptitle('Kernel Density Estimate of Points per Game by Position Over Time')
-plt.savefig('/Users/abeljohn/Developer/NBA-Machine-Learning-Sports-Betting/src/ProcessData/plot.png')
+plt.savefig('/Users/abeljohn/Developer/Player-Sports-Analytics/src/ProcessData/plot.png')
 print('plot saved')
 # Show the plot
 plt.show()

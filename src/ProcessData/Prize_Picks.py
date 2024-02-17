@@ -17,11 +17,11 @@ from colorama import Fore, Style
 from itertools import combinations
 from tqdm import tqdm
 
-def create_total_pp_dset(dates, selection_type='tail'):
+def create_total_pp_dset(dates, selection_type='tail', odds_type='standard'):
     con = sqlite3.connect("../../Data/games.sqlite")
     total_df = pd.DataFrame()
     for date in tqdm(dates):
-        df = selections_by_threshold(get_player_results(date), selection_type)
+        df = selections_by_threshold(get_player_results(date), selection_type, odds_type=odds_type)
         # df = get_player_results(date)
         # from pudb import set_trace; set_trace()
         if total_df.empty:
@@ -30,24 +30,29 @@ def create_total_pp_dset(dates, selection_type='tail'):
             total_df = pd.concat([total_df, df], ignore_index=True)
     # from pudb import set_trace; set_trace()
     # print(len(total_df['Rebounds']))
-    total_df.to_sql(f"pp_preds_total", con, if_exists="replace")
-    total_df.to_csv('PrizePicksOdds/all_preds_made.csv')
+    if odds_type == 'standard':
+        total_df.to_sql(f"pp_preds_total_{selection_type}", con, if_exists="replace")
+        total_df.to_csv(f'PrizePicksOdds/all_preds_made.csv_{selection_type}')
     con.close()
-    print('curating dset for: ', selection_type)
+    print(f'curating {odds_type} dset for: ', selection_type, f', of size {len(total_df)}')
     return total_df
 
-def analyze_picks(df=None):
+def analyze_picks(df=None, selection_type='tail', odds_type='standard'):
     con = sqlite3.connect("../../Data/games.sqlite")
     if df is None:
-        df = pd.read_sql_query(f"select * from \"pp_preds_total\"", con, index_col="index")
+        df = pd.read_sql_query(f"select * from \"pp_preds_total_{selection_type}\"", con, index_col="index")
     df['Margin'] = (df['Score'] - df['Result']).abs()
-    print('mean: ', df.groupby(['Outcome', 'Category'])['Margin'].mean())
-    print('median: ', df.groupby(['Outcome', 'Category'])['Margin'].median())
-    print('stev: ', df.groupby(['Outcome', 'Category'])['Margin'].std())
-    df[['Player', 'Outcome']].value_counts().unstack().fillna(0).to_csv('PrizePicksOdds/Player_Picks_Outcomes.csv')
-    print(df.groupby('Category')['Outcome'].value_counts(normalize=True))
-    # from pudb import set_trace; set_trace()
-    # print(df[df['Player'] == 'Devin Vassell']['Prediction', 'Outcome'].value_counts()).unstack().fillna(0)
+    if odds_type == 'standard':
+        df[['Player', 'Category', 'Outcome']].value_counts().unstack().fillna(0).to_csv(f'PrizePicksOdds/Player_Picks_Outcomes_{selection_type}.csv')
+        print('mean: ', df.groupby(['Outcome', 'Category'])['Margin'].mean())
+        print('median: ', df.groupby(['Outcome', 'Category'])['Margin'].median())
+        print('stev: ', df.groupby(['Outcome', 'Category'])['Margin'].std())
+        print(df.groupby('Category')['Outcome'].value_counts(normalize=True))
+    else:
+        # from pudb import set_trace; set_trace()
+        print(df.groupby('Prediction')['Outcome'].value_counts())
+        print(df[['Threshold', 'Prediction', 'Outcome']][df['Threshold']==0].value_counts().unstack())
+    # print(df[df['Player'] == 'Devin Vassell'][['Prediction', 'Outcome']].value_counts().unstack().fillna(0))
     con.close()
 
 def to_data_frame_pp(data):
@@ -64,7 +69,8 @@ def process_row(row, szn_df):
     date = pd.to_datetime(row['Date'])
     szn_df['DATE'] = pd.to_datetime(szn_df['DATE'])
     metrics = szn_df[(szn_df['PLAYER_ID'] == player_id) & (szn_df['DATE'] < date)][cat_to_metric[row['Category']]].sum(axis=1)
-    # stev = metrics.std()
+    stev = metrics.std()
+    row['stev'] = stev
     # mu = metrics.mean()
     # zscore_pred = (row['Result'] - mu)/stev
     # pred_prob = norm.cdf(zscore_pred)
@@ -72,22 +78,22 @@ def process_row(row, szn_df):
     # line_prob = norm.cdf(zscore_line)
     # from pudb import set_trace; set_trace()
     # row['norm_prob'] = np.abs(pred_prob-line_prob)
-    if len(metrics) > 15:
-        kde = gaussian_kde(metrics, bw_method='silverman')
-        pred_prob = kde.evaluate(row['Result'])[0]
-        line_prob = kde.evaluate(row['Line'])[0]
-    # print('for pred', pred_prob)
-    # print('for line', line_prob)
-        row['norm_prob'] = pred_prob-line_prob
-    else:
-        row['norm_prob'] = 0
+    # if len(metrics) > 15:
+    #     kde = gaussian_kde(metrics, bw_method='silverman')
+    #     pred_prob = kde.evaluate(row['Result'])[0]
+    #     line_prob = kde.evaluate(row['Line'])[0]
+    # # print('for pred', pred_prob)
+    # # print('for line', line_prob)
+    #     row['norm_prob'] = pred_prob-line_prob
+    # else:
+    #     row['norm_prob'] = 0
     return row
 
 def get_stev(df):
     con = sqlite3.connect("../../Data/games.sqlite")
     szn_df = pd.read_sql_query(f"select * from \"games_2023-24\"", con, index_col="index")
     # df = pd.read_sql_query(f"select * from \"pp_preds_{date}\"", con, index_col="index")
-    df['norm_prob'] = -1
+    # df['norm_prob'] = -1
     # for x in df:
     x = df.apply(lambda row: process_row(row, szn_df), axis=1)
     # from pudb import set_trace; set_trace()
@@ -296,7 +302,7 @@ def get_player_results(date, category='all', specific_player_df=None, get_accura
 
 def load_display_evaluate_pp(date, category):
     load_prize_picks(date, category)
-    # display_prize_picks(date, category)
+    display_prize_picks(date, category)
     accuracy, _, _, _ = evaluate_prize_picks(date, category)
     print(f'accuracy on {date}', accuracy)
 
@@ -323,8 +329,11 @@ def load_display_future_data(date, category, num_picks, sampling_type='random', 
         picks = picks[['Player', 'Prediction']].values.tolist()
     all_preds_df = selections_by_threshold(df, selection_type=sampling_type, odds_type=odds_type)
     if sampling_type == 'total':
-        print(all_preds_df)
-        # all_preds_df.to_csv(f'PrizePicksOdds/mypicks_{date}.csv', index=False)
+        if odds_type == 'demon':
+            print(all_preds_df.tail(30))
+        else:
+            print(all_preds_df)
+        all_preds_df.to_csv(f'PrizePicksOdds/mypicks_{date}.csv', index=False)
         con.close()
         return
     if sampling_type == 'tail':
@@ -352,9 +361,9 @@ def aggregate_preds_across_intervals(dates):
     con = sqlite3.connect("../../Data/games.sqlite")
     best_thresholds = {}
     # from pudb import set_trace; set_trace()
-    cat_bounds = {'Points': (0., 15), 'Assists': (0., 5.5), 'Fantasy Score': (0, 10),  'Rebounds': (0, 5.5), 'Defensive Rebounds': (0., 5.5),'Offensive Rebounds': (0., 5.5),     
+    cat_bounds = {'Pts+Asts': (0., 15), 'Rebs+Asts': (0., 10), 'Blks+Stls': (0., 10), 'Points': (0., 15), 'Assists': (0., 5.5), 'Fantasy Score': (0, 10),  'Rebounds': (0, 5.5), 'Defensive Rebounds': (0., 5.5),'Offensive Rebounds': (0., 5.5),     
         '3-PT Attempted': (0., 5.5), 'Free Throws Made': (0., 5.5), 'FG Attempted': (0., 10), '3-PT Made': (0., 5.5), 
-        'Blocked Shots': (0., 5.5), 'Steals': (0., 5.5), 'Turnovers': (0., 5.5), 'Pts+Rebs+Asts': (0., 15), 'Pts+Rebs': (0., 15), 'Pts+Asts': (0., 15), 'Rebs+Asts': (0., 10), 'Blks+Stls': (0., 10)}
+        'Blocked Shots': (0., 5.5), 'Steals': (0., 5.5), 'Turnovers': (0., 5.5), 'Pts+Rebs+Asts': (0., 15), 'Pts+Rebs': (0., 15)}
     cat_to_threshold = {}
     for cat in cat_bounds.keys():
         print(f'{Fore.RED}{Style.BRIGHT}{cat}{Style.RESET_ALL}')
@@ -396,39 +405,42 @@ def selections_by_threshold(df, selection_type='random', odds_type='standard',nu
     # print(len(demon_df))
     # demon_df = demon_df[demon_df['Prediction'] == 'OVER']
     # print(len(demon_df))
-    for cat in optimal_gates.keys():
-        # from pudb import set_trace; set_trace()
-        lower = optimal_gates[cat][0]
-        upper = optimal_gates[cat][1]
-        # lower = 0.6
-        # upper = confidence_intervals[cat][optimal_gates_update[cat][1]]
-        updated_df = df[df['Category'] == cat]
-        # from pudb import set_trace; set_trace()
-        updated_df = updated_df[(updated_df['Threshold'] >= lower) & (updated_df['Threshold'] <= upper)]
-        updated_df = updated_df[updated_df['Odds'] == odds_type]
-        # updated_df = updated_df[updated_df['Prob'] < upper]
-        all_preds_df = pd.concat([updated_df, all_preds_df], ignore_index=True)
+    df = df[df['Odds'] == odds_type]
+    if odds_type != 'standard':
+        df = df.sort_values(by='Prob', ascending=False).reset_index(drop=True)
+        if selection_type == 'tail':
+            return df.tail(num_picks)
+        return df
+    else:
+        for cat in optimal_gates.keys():
+            lower = optimal_gates[cat][0]
+            upper = optimal_gates[cat][1]
+            updated_df = df[df['Category'] == cat]
+            # from pudb import set_trace; set_trace()
+            if odds_type == 'standard':
+                updated_df = updated_df[(updated_df['Threshold'] >= lower) & (updated_df['Threshold'] <= upper)]
+            all_preds_df = pd.concat([updated_df, all_preds_df], ignore_index=True)
     # print('size of dset: ', len(all_preds_df))
+    all_preds_df = get_stev(all_preds_df)
     if selection_type == 'total':
-        # all_preds_df = get_stev(all_preds_df)
         all_preds_df  = all_preds_df[all_preds_df['Player'] != 'Nicolas Claxton']
         # all_preds_df = all_preds_df.sort_values(by='norm_prob', ascending=False).reset_index(drop=True).drop_duplicates(subset='Player', keep='first')
-        # picks = all_preds_df
-        # from pudb import set_trace; set_trace()
-        picks = all_preds_df.sort_values(by='Prob').reset_index(drop=True)
+        picks = all_preds_df.sort_values(by='stev', ascending=False).reset_index(drop=True)
         # .drop_duplicates(subset='Player', keep='first')
         # picks = all_preds_df.sort_values(by='Prob').reset_index(drop=True)
     if selection_type == 'random':  
         try:
             picks = all_preds_df.drop_duplicates(subset='Player', keep='first').sample(n=num_picks)
         except:
-            from pudb import set_trace; set_trace()
+            print('not enough samples')
+            picks = all_preds_df.drop_duplicates(subset='Player', keep='first')
     if selection_type == 'tail':
         # all_preds_df = get_stev(all_preds_df)
         # all_preds_df  = all_preds_df[all_preds_df['Player'] != 'Nicolas Claxton']
         # all_preds_df = all_preds_df.sort_values(by='norm_prob', ascending=False).reset_index(drop=True).drop_duplicates(subset='Player', keep='first')
         # print(all_preds_df)
-        all_preds_df = all_preds_df.sort_values(by='Prob').reset_index(drop=True).drop_duplicates(subset='Player', keep='last')
+        all_preds_df = all_preds_df.sort_values(by='stev', ascending=False).reset_index(drop=True).drop_duplicates(subset='Player', keep='last')
+        # all_preds_df = all_preds_df.sort_values(by='Prob', ascending=False).reset_index(drop=True).drop_duplicates(subset='Player', keep='last')
         picks = all_preds_df.tail(num_picks)
     return picks
 
@@ -491,14 +503,17 @@ def accuracy_across_days(dates, selection_type, num_picks=6, category='all', odd
     acc_by_day = []
     for date in tqdm(dates):
         cor, total, acc, marked_df = daily_accuracy_check(date, selection_type,num_picks, category, odds_type, show_acc)
-        if not marked_df.empty:
+        if not marked_df.empty and len(marked_df) >= num_picks:
             total_correct += cor
             total_count += total
             acc_by_day.append(acc)
+        else:
+            print(date, 'OMMITTED')
     print('total accuracy: ', total_correct/total_count)
     print('average accuracy per day: ', np.mean(acc_by_day))
     print('med accuracy per day: ', np.median(acc_by_day))
-    print('daily accuracies: ', acc_by_day)
+    print(f'daily accuracies over {len(acc_by_day)} days: ', acc_by_day)
+    print('num ones:', acc_by_day.count(1.0))
     print('stev: ', np.std(acc_by_day))
     return np.mean(acc_by_day), np.std(acc_by_day)
 
@@ -506,28 +521,28 @@ def accuracy_across_days(dates, selection_type, num_picks=6, category='all', odd
 # , '01-02-2024', '01-03-2024', '01-05-2024','01-06-2024','01-07-2024', '01-08-2024', '01-09-2024'
 # 
  
-dates = ['01-01-2024', '01-02-2024', '01-03-2024', '01-05-2024','01-06-2024','01-07-2024', '01-08-2024', '01-09-2024', '01-10-2024', '01-11-2024', '01-12-2024', '01-15-2024', '01-16-2024',
-'01-17-2024', '01-18-2024', '01-20-2024', '01-22-2024', '01-23-2024', '01-24-2024', '01-25-2024', '01-26-2024', '01-27-2024', '01-28-2024',  '01-29-2024',  '01-30-2024', '01-31-2024', '02-01-2024', '02-02-2024','02-03-2024', '02-04-2024']
-# , '02-01-2024', '02-02-2024'
+dates = ['01-01-2024', '01-02-2024', '01-03-2024', '01-05-2024','01-06-2024','01-07-2024', '01-08-2024', '01-09-2024', '01-10-2024', '01-11-2024', '01-12-2024','01-15-2024', '01-16-2024',
+'01-17-2024', '01-18-2024', '01-20-2024', '01-22-2024', '01-23-2024', '01-24-2024', '01-25-2024', '01-26-2024', '01-27-2024', '01-28-2024',  '01-29-2024',  '01-30-2024', '01-31-2024', '02-01-2024', 
+'02-02-2024','02-03-2024', '02-04-2024', '02-05-2024', '02-07-2024', '02-08-2024', '02-09-2024', '02-10-2024', '02-11-2024', '02-12-2024', '02-13-2024', '02-14-2024', '02-15-2024']
 # week_dates = [['01-01-2024', '01-02-2024', '01-03-2024', '01-05-2024','01-06-2024','01-07-2024', '01-08-2024'], ['01-15-2024', '01-16-2024', '01-17-2024', '01-18-2024', '01-20-2024', '01-22-2024', '01-23-2024']]
 # create df by DATE not category...
 # update_df()
 # total_df=None
-# total_df = create_total_pp_dset(dates, selection_type='total')
-# analyze_picks(total_df)
+# slxn = 'total'
+# odds_type = 'demon'
+# total_df = create_total_pp_dset(dates, selection_type=slxn, odds_type=odds_type)
+# analyze_picks(total_df, selection_type=slxn, odds_type=odds_type)
 # for date in dates:
-#     load_display_evaluate_pp(date, 'all')
-#     evaluate_prize_picks(date)
-# daily_accuracy_check('02-03-2024', 'total', num_picks=6, show_acc=True)
+# load_prize_picks('02-10-2024', 'all')
+# daily_accuracy_check('02-14-2024', 'total', odds_type='standard', num_picks=6, show_acc=True)
 # optimal_gates.keys()
 # dates = ['01-26-2024', '01-27-2024', '01-28-2024',  '01-29-2024',  '01-30-2024']
 # for cat in optimal_gates.keys():
 #     print(cat)
-# cat = 'all'
 # sim_acc = []
 # sim_stev = []
 # for x in tqdm(range(30)):
-# acc, stev = accuracy_across_days(dates, selection_type='tail', num_picks=6, category=cat, show_acc=True)
+# acc, stev = accuracy_across_days(dates, selection_type='tail', num_picks=6, category='all', show_acc=True)
 #     sim_acc.append(acc)
 #     sim_stev.append(stev)
 # print('accuracy: ', sim_acc)
@@ -575,7 +590,7 @@ dates = ['01-01-2024', '01-02-2024', '01-03-2024', '01-05-2024','01-06-2024','01
 # print('95th pctile:', np.percentile(profits, 95))
 # print('99th pctile:', np.percentile(profits, 99))
 # for date in dates:
-# load_display_future_data(date='02-04-2024', category='all', num_picks=6, display_only=False, sampling_type='tail')
+# load_display_future_data(date='02-15-2024', category='all', num_picks=6, display_only=True, sampling_type='total', odds_type='demon')
 #     daily_accuracy_check(date, 'total', num_picks=6, show_acc=True)
 
 # pairings = list(combinations(['Donovan Mitchell', 'Jarrett Allen', 'Dwight Powell', 'Shai Gilgeous-Alexander', 'Derrick Jones Jr.', 'Kyrie Irving'],2))
