@@ -105,6 +105,7 @@ venv.bak/
 
 # database
 Data/games.sqlite
+Data/export.sql
 src/ProcessData/PrizePicksOdds/
 .idea
 .DS_Store

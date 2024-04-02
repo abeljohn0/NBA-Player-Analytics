@@ -1,17 +1,19 @@
 import os
 import random
 import sqlite3
-import sys
+# import sys
 import time
 import pandas as pd
 import pytz
 from datetime import date, datetime, timedelta
 from tqdm import tqdm
-sys.path.insert(1, os.path.join(sys.path[0], '../..'))
+# sys.path.insert(1, os.path.join(sys.path[0], '../..'))
 from src.Utils.tools import get_json_data, to_data_frame, mod_szn_cols, add_rest_days, add_game_info, \
 url_team, url_szn_games, url_player_cur_game, url_player_szn, url_player_adv_szn, url_player_details, url_games_td
 from src.Utils.Dictionaries import team_to_id, pos_id
 from Data.players import find_players_by_full_name
+from src.Utils.Dictionaries import cat_to_metric
+from src.ProcessData.Injury_Report import aggregate_injury_data
 
 year = [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 seasons = ["2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24"]
@@ -28,7 +30,7 @@ def get_player_id(player_name):
 def generate_total_dataset(db_name='games'):
     # aggregate in dataset for all seasons
     # TODO: make a way to check if dataset has already been created for player
-    con_local = sqlite3.connect(f"../../Data/{db_name}.sqlite")
+    con_local = sqlite3.connect(f"Data/{db_name}.sqlite")
     total_szn_df = pd.DataFrame
     for season in tqdm(seasons):
         szn_df = pd.read_sql_query(f"select * from \"{db_name}_{season}\"", con_local, index_col="index")
@@ -89,7 +91,7 @@ def aggregate_data_by_season(db_name='games', player_name="", update=False, play
     else:
         year = [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
         seasons = ["2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24"]
-        con = sqlite3.connect(f"../../Data/{db_name}.sqlite")
+        con = sqlite3.connect(f"Data/{db_name}.sqlite")
         print('sql db cnxn opened for: ', db_name)
         if update:
             # from pudb import set_trace; set_trace()
@@ -225,7 +227,7 @@ def aggregate_data_by_season(db_name='games', player_name="", update=False, play
             print('updated dataset to ', dates.tail()[0])
             season_df.to_sql(f"{db_name}_{season}", con, if_exists="replace")
             con.close()
-            return season_df
+            return season_df, dates
         season_df.to_sql(f"{db_name}_{season}", con, if_exists="replace")
         from pudb import set_trace; set_trace()
         count += 1
@@ -235,9 +237,75 @@ def aggregate_data_by_season(db_name='games', player_name="", update=False, play
     con.close()
     return total_df
 
-def update_df():
-    aggregate_data_by_season(update=True)
+def get_player_results(date, category='all', specific_player_df=None, get_accuracy=False):
+    con = sqlite3.connect("Data/games.sqlite")
+    cor = 0
+    total = 0
+    if specific_player_df is None:
+        try:
+            players_df = pd.read_sql_query(f"select * from \"pp_preds_{date}\"", con, index_col="index")
+        except:
+            print('no data for this date... please enter a date AFTER Jan 1st and BEFORE current date')
+            players_df = pd.DataFrame()
+    else:
+        players_df = specific_player_df
+    results_df = to_data_frame(get_json_data(url_player_cur_game.format(date, '2023-24', '')))
+    if results_df.empty or players_df.empty:
+        return pd.DataFrame()
+    time.sleep(random.uniform(0.3, 0.7))
+    for index, row in players_df.iterrows():
+        # from pudb import set_trace; set_trace()
+        if category != 'all' and row['Category'] != category:
+            continue
+        player_game_results = results_df[results_df['PLAYER_NAME'] == row['Player']]
+        try:
+            cat = cat_to_metric[row['Category']]
+            if len(cat) > 1:
+                final_result = 0
+                for x in cat:
+                    final_result += float(player_game_results[x])
+            else:
+                final_result = float(player_game_results[cat[0]])
+        except:
+            # from pudb import set_trace; set_trace()
+            # print(f'error: {row["Player"]} not found')
+            continue
+        total += 1
+        correct_pred = 'N/A'
+        if final_result < float(row['Line']):
+            correct_pred = 'UNDER'
+        if final_result > float(row['Line']):
+            correct_pred = 'OVER'
+        if correct_pred == row['Prediction']:
+            cor += 1
+            decision = 'CORRECT'
+        else:
+            if correct_pred == 'N/A':
+                decision = 'DISCOUNTED'
+                # if row['Prob'] > thresholds[row['Category']]:
+                total -= 1
+            else:
+                decision = 'INCORRECT'
+        # print(f'{Fore.MAGENTA}{row["Player"]}{Style.RESET_ALL}', '\nLine: ', row['Line'], ' Category: ', row['Category'], '\nProb: ', row['Prob'], '\nPrediction: ', row['Result'], ' Result: ', final_result, decision)
+        players_df.loc[index, 'Outcome'] = decision
+        players_df.loc[index, 'Score'] = final_result
+    con.close()
+    if get_accuracy:
+        return cor, total, cor/total, players_df
+    return players_df
 
+
+def update_df():
+    _, dates = aggregate_data_by_season(update=True)
+    con = sqlite3.connect("Data/games.sqlite")
+    pp_df = pd.read_sql_query(f"select * from \"pp_2023-24\"", con, index_col="index")
+    for date in dates:
+        print(date)
+        results_df = get_player_results(date)
+        pp_df = pd.concat([pp_df, results_df]).drop_duplicates().reset_index(drop=True)
+    pp_df.to_sql(f"pp_2023-24", con, if_exists="replace")
+    con.close()
+    aggregate_injury_data()
 #TODO: add a reset a season functionality
 
 # update_df()

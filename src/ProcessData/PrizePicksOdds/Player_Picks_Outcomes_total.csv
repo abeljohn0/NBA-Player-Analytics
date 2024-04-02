@@ -1,175 +1,434 @@
 Player,Category,CORRECT,DISCOUNTED,INCORRECT
-Alperen Sengun,FG Attempted,1.0,0.0,0.0
-Alperen Sengun,Pts+Rebs+Asts,2.0,0.0,0.0
-Andrew Nembhard,Assists,0.0,0.0,2.0
-Anfernee Simons,Assists,0.0,1.0,0.0
-Anthony Davis,FG Attempted,1.0,0.0,0.0
-Anthony Davis,Pts+Asts,1.0,0.0,0.0
-Anthony Davis,Pts+Rebs+Asts,2.0,0.0,4.0
-Anthony Edwards,FG Attempted,2.0,0.0,0.0
-Anthony Edwards,Pts+Rebs+Asts,2.0,0.0,2.0
-Austin Reaves,Pts+Rebs+Asts,1.0,0.0,0.0
-Bam Adebayo,Pts+Rebs+Asts,1.0,0.0,0.0
-Bradley Beal,Assists,0.0,0.0,1.0
-Bradley Beal,Pts+Asts,1.0,0.0,1.0
-Bradley Beal,Pts+Rebs+Asts,1.0,0.0,1.0
+Shai Gilgeous-Alexander,FG Attempted,2.0,0.0,2.0
+Shai Gilgeous-Alexander,Fantasy Score,1.0,0.0,2.0
+Shai Gilgeous-Alexander,Pts+Asts,7.0,0.0,7.0
+Shai Gilgeous-Alexander,Pts+Rebs,1.0,0.0,1.0
+Shai Gilgeous-Alexander,Pts+Rebs+Asts,9.0,0.0,4.0
+Kawhi Leonard,FG Attempted,1.0,0.0,1.0
+Kawhi Leonard,Fantasy Score,2.0,0.0,0.0
+Kawhi Leonard,Pts+Asts,7.0,0.0,4.0
+Kawhi Leonard,Pts+Rebs,3.0,0.0,2.0
+Kawhi Leonard,Pts+Rebs+Asts,4.0,0.0,5.0
+Stephen Curry,Assists,1.0,0.0,0.0
+Stephen Curry,FG Attempted,1.0,1.0,0.0
+Stephen Curry,Fantasy Score,2.0,0.0,3.0
+Stephen Curry,Pts+Asts,7.0,0.0,4.0
+Stephen Curry,Pts+Rebs,2.0,0.0,2.0
+Stephen Curry,Pts+Rebs+Asts,5.0,0.0,7.0
+Giannis Antetokounmpo,FG Attempted,3.0,0.0,0.0
+Giannis Antetokounmpo,Fantasy Score,2.0,0.0,0.0
+Giannis Antetokounmpo,Pts+Asts,4.0,0.0,7.0
+Giannis Antetokounmpo,Pts+Rebs,1.0,0.0,2.0
+Giannis Antetokounmpo,Pts+Rebs+Asts,3.0,0.0,2.0
 Brandon Ingram,FG Attempted,1.0,0.0,1.0
-Brandon Ingram,Pts+Rebs+Asts,2.0,0.0,0.0
-Brandon Miller,FG Attempted,1.0,0.0,0.0
-Brandon Miller,Pts+Asts,2.0,0.0,1.0
-Brandon Miller,Pts+Rebs+Asts,1.0,0.0,2.0
-CJ McCollum,Pts+Rebs+Asts,1.0,0.0,0.0
-Cade Cunningham,FG Attempted,0.0,0.0,1.0
-Cade Cunningham,Pts+Asts,1.0,0.0,0.0
-Cade Cunningham,Pts+Rebs+Asts,1.0,0.0,0.0
-Cam Thomas,FG Attempted,2.0,0.0,0.0
-Coby White,FG Attempted,1.0,0.0,0.0
-Coby White,Pts+Asts,1.0,0.0,0.0
-Coby White,Pts+Rebs+Asts,1.0,0.0,2.0
-Damian Lillard,Assists,1.0,0.0,0.0
-Damian Lillard,FG Attempted,1.0,0.0,1.0
-Damian Lillard,Pts+Asts,3.0,0.0,0.0
-Damian Lillard,Pts+Rebs+Asts,5.0,0.0,1.0
-Darius Garland,Pts+Asts,0.0,0.0,1.0
-Darius Garland,Pts+Rebs+Asts,0.0,0.0,1.0
-De'Aaron Fox,FG Attempted,1.0,0.0,1.0
-De'Aaron Fox,Pts+Rebs+Asts,1.0,0.0,0.0
-DeMar DeRozan,FG Attempted,1.0,0.0,0.0
-DeMar DeRozan,Pts+Asts,1.0,0.0,0.0
-Dejounte Murray,Assists,1.0,1.0,0.0
-Dejounte Murray,FG Attempted,0.0,0.0,1.0
-Dejounte Murray,Pts+Asts,1.0,0.0,1.0
-Deni Avdija,Pts+Asts,0.0,0.0,1.0
-Dennis Schroder,Assists,0.0,0.0,1.0
-Dennis Schroder,Pts+Asts,1.0,0.0,0.0
-Dennis Schroder,Pts+Rebs+Asts,0.0,0.0,1.0
-Derrick Jones Jr.,Pts+Rebs+Asts,1.0,0.0,0.0
-Desmond Bane,Pts+Asts,0.0,0.0,1.0
-Devin Booker,Pts+Rebs+Asts,0.0,0.0,1.0
-Devin Vassell,FG Attempted,1.0,0.0,0.0
-Devin Vassell,Pts+Rebs+Asts,2.0,0.0,1.0
-Domantas Sabonis,Assists,1.0,0.0,0.0
-Domantas Sabonis,Pts+Rebs+Asts,4.0,0.0,0.0
-Donovan Mitchell,Assists,1.0,0.0,0.0
-Donovan Mitchell,FG Attempted,2.0,0.0,1.0
-Donovan Mitchell,Pts+Asts,5.0,0.0,1.0
-Donovan Mitchell,Pts+Rebs+Asts,3.0,0.0,1.0
-Donte DiVincenzo,Pts+Asts,0.0,0.0,2.0
-Duncan Robinson,Pts+Asts,0.0,0.0,1.0
-Giannis Antetokounmpo,Pts+Asts,5.0,0.0,0.0
-Giannis Antetokounmpo,Pts+Rebs+Asts,2.0,0.0,2.0
-Immanuel Quickley,Assists,1.0,0.0,0.0
-Ja Morant,FG Attempted,1.0,0.0,0.0
-Ja Morant,Pts+Rebs+Asts,1.0,0.0,0.0
-Jaden Ivey,FG Attempted,1.0,0.0,0.0
-Jaden Ivey,Pts+Asts,1.0,0.0,0.0
-Jaime Jaquez Jr.,Pts+Asts,0.0,0.0,1.0
-Jalen Brunson,Assists,2.0,0.0,3.0
-Jalen Brunson,FG Attempted,1.0,0.0,0.0
-Jalen Brunson,Pts+Asts,2.0,0.0,2.0
-Jalen Brunson,Pts+Rebs+Asts,1.0,0.0,2.0
-Jalen Green,FG Attempted,0.0,0.0,1.0
-Jalen Johnson,Pts+Rebs+Asts,1.0,0.0,1.0
+Brandon Ingram,Fantasy Score,2.0,0.0,0.0
+Brandon Ingram,Pts+Asts,4.0,0.0,0.0
+Brandon Ingram,Pts+Rebs+Asts,6.0,0.0,1.0
 Jamal Murray,Assists,2.0,0.0,0.0
 Jamal Murray,FG Attempted,1.0,0.0,0.0
-Jamal Murray,Pts+Asts,2.0,0.0,2.0
-Jamal Murray,Pts+Rebs+Asts,2.0,0.0,2.0
-James Harden,Assists,1.0,0.0,1.0
-James Harden,Pts+Asts,1.0,0.0,2.0
-James Harden,Pts+Rebs+Asts,1.0,0.0,2.0
-Jaren Jackson Jr.,FG Attempted,0.0,0.0,1.0
-Jaren Jackson Jr.,Pts+Asts,2.0,0.0,2.0
-Jaren Jackson Jr.,Pts+Rebs+Asts,3.0,0.0,2.0
-Jarrett Allen,Pts+Asts,0.0,0.0,1.0
-Jarrett Allen,Pts+Rebs+Asts,2.0,0.0,3.0
-Jaylen Brown,FG Attempted,1.0,0.0,0.0
-Jaylen Brown,Pts+Rebs+Asts,1.0,0.0,0.0
-Jayson Tatum,FG Attempted,2.0,0.0,0.0
-Jayson Tatum,Pts+Asts,0.0,0.0,1.0
-Jayson Tatum,Pts+Rebs+Asts,1.0,0.0,1.0
-Jimmy Butler,Pts+Rebs+Asts,1.0,0.0,0.0
-Joel Embiid,Pts+Rebs+Asts,2.0,0.0,1.0
-Jonathan Kuminga,Pts+Asts,1.0,0.0,0.0
-Jonathan Kuminga,Pts+Rebs+Asts,1.0,0.0,1.0
-Jordan Poole,Pts+Asts,1.0,0.0,0.0
-Jordan Poole,Pts+Rebs+Asts,1.0,0.0,0.0
-Kawhi Leonard,FG Attempted,1.0,0.0,1.0
-Kawhi Leonard,Pts+Asts,3.0,0.0,1.0
-Kawhi Leonard,Pts+Rebs+Asts,3.0,0.0,3.0
-Keldon Johnson,Pts+Asts,0.0,0.0,1.0
-Kelly Oubre Jr.,Pts+Asts,1.0,0.0,0.0
-Kelly Oubre Jr.,Pts+Rebs+Asts,1.0,0.0,0.0
-Kevin Durant,FG Attempted,1.0,0.0,1.0
-Kevin Huerter,Pts+Rebs+Asts,1.0,0.0,0.0
-Khris Middleton,Assists,1.0,0.0,0.0
-Khris Middleton,Pts+Asts,0.0,0.0,3.0
-Khris Middleton,Pts+Rebs+Asts,1.0,0.0,2.0
-Klay Thompson,FG Attempted,0.0,0.0,1.0
-Klay Thompson,Pts+Rebs+Asts,1.0,0.0,0.0
-Kyle Kuzma,FG Attempted,1.0,0.0,0.0
-Kyle Kuzma,Pts+Rebs+Asts,1.0,0.0,0.0
-Kyrie Irving,Assists,1.0,0.0,0.0
-Kyrie Irving,Pts+Asts,2.0,0.0,2.0
-Kyrie Irving,Pts+Rebs+Asts,1.0,0.0,1.0
-LaMelo Ball,FG Attempted,1.0,0.0,0.0
-LaMelo Ball,Pts+Rebs+Asts,2.0,0.0,0.0
-Lauri Markkanen,Pts+Rebs+Asts,0.0,0.0,1.0
+Jamal Murray,Fantasy Score,1.0,0.0,1.0
+Jamal Murray,Pts+Asts,6.0,0.0,2.0
+Jamal Murray,Pts+Rebs,1.0,0.0,1.0
+Jamal Murray,Pts+Rebs+Asts,6.0,0.0,0.0
+Alperen Sengun,FG Attempted,1.0,0.0,0.0
+Alperen Sengun,Fantasy Score,2.0,0.0,0.0
+Alperen Sengun,Pts+Asts,1.0,0.0,1.0
+Alperen Sengun,Pts+Rebs+Asts,6.0,0.0,2.0
+Anthony Davis,FG Attempted,1.0,0.0,2.0
+Anthony Davis,Fantasy Score,1.0,0.0,1.0
+Anthony Davis,Pts+Asts,6.0,0.0,5.0
+Anthony Davis,Pts+Rebs,3.0,0.0,3.0
+Anthony Davis,Pts+Rebs+Asts,3.0,0.0,1.0
+Miles Bridges,FG Attempted,2.0,0.0,0.0
+Miles Bridges,Fantasy Score,2.0,0.0,2.0
+Miles Bridges,Pts+Asts,5.0,0.0,1.0
+Miles Bridges,Pts+Rebs,6.0,0.0,2.0
+Miles Bridges,Pts+Rebs+Asts,5.0,0.0,4.0
 LeBron James,FG Attempted,1.0,0.0,0.0
-LeBron James,Pts+Asts,1.0,0.0,1.0
-LeBron James,Pts+Rebs+Asts,3.0,0.0,1.0
-Luguentz Dort,Pts+Rebs+Asts,1.0,0.0,0.0
+LeBron James,Pts+Asts,5.0,0.0,2.0
+LeBron James,Pts+Rebs,3.0,0.0,0.0
+LeBron James,Pts+Rebs+Asts,3.0,0.0,2.0
+Devin Vassell,FG Attempted,4.0,0.0,0.0
+Devin Vassell,Fantasy Score,2.0,0.0,0.0
+Devin Vassell,Pts+Asts,4.0,0.0,1.0
+Devin Vassell,Pts+Rebs,2.0,0.0,3.0
+Devin Vassell,Pts+Rebs+Asts,5.0,0.0,3.0
+Jaden Ivey,FG Attempted,2.0,0.0,0.0
+Jaden Ivey,Pts+Asts,5.0,0.0,1.0
+Jaden Ivey,Pts+Rebs,2.0,0.0,0.0
+Jaden Ivey,Pts+Rebs+Asts,2.0,0.0,1.0
+Jalen Brunson,Assists,2.0,0.0,3.0
+Jalen Brunson,FG Attempted,1.0,0.0,1.0
+Jalen Brunson,Fantasy Score,1.0,0.0,0.0
+Jalen Brunson,Pts+Asts,5.0,0.0,3.0
+Jalen Brunson,Pts+Rebs,1.0,0.0,1.0
+Jalen Brunson,Pts+Rebs+Asts,4.0,0.0,5.0
+Terry Rozier,Assists,2.0,0.0,1.0
+Terry Rozier,FG Attempted,1.0,0.0,1.0
+Terry Rozier,Fantasy Score,0.0,0.0,1.0
+Terry Rozier,Pts+Asts,2.0,0.0,5.0
+Terry Rozier,Pts+Rebs,2.0,0.0,3.0
+Terry Rozier,Pts+Rebs+Asts,2.0,0.0,3.0
+Jaren Jackson Jr.,FG Attempted,0.0,0.0,1.0
+Jaren Jackson Jr.,Pts+Asts,4.0,0.0,3.0
+Jaren Jackson Jr.,Pts+Rebs,4.0,0.0,1.0
+Jaren Jackson Jr.,Pts+Rebs+Asts,4.0,0.0,1.0
+Jayson Tatum,FG Attempted,3.0,0.0,1.0
+Jayson Tatum,Fantasy Score,3.0,0.0,1.0
+Jayson Tatum,Pts+Asts,1.0,0.0,2.0
+Jayson Tatum,Pts+Rebs,1.0,0.0,1.0
+Jayson Tatum,Pts+Rebs+Asts,4.0,0.0,3.0
+Nikola Vucevic,FG Attempted,0.0,0.0,1.0
+Nikola Vucevic,Fantasy Score,1.0,0.0,1.0
+Nikola Vucevic,Pts+Asts,0.0,0.0,1.0
+Nikola Vucevic,Pts+Rebs+Asts,4.0,0.0,4.0
+Jarrett Allen,Fantasy Score,2.0,0.0,0.0
+Jarrett Allen,Pts+Asts,0.0,0.0,1.0
+Jarrett Allen,Pts+Rebs,1.0,0.0,1.0
+Jarrett Allen,Pts+Rebs+Asts,4.0,0.0,3.0
+Brandon Miller,FG Attempted,1.0,0.0,0.0
+Brandon Miller,Fantasy Score,1.0,0.0,1.0
+Brandon Miller,Pts+Asts,4.0,0.0,2.0
+Brandon Miller,Pts+Rebs,2.0,0.0,2.0
+Brandon Miller,Pts+Rebs+Asts,2.0,0.0,3.0
+Damian Lillard,Assists,1.0,0.0,0.0
+Damian Lillard,FG Attempted,1.0,0.0,1.0
+Damian Lillard,Pts+Asts,4.0,0.0,0.0
+Damian Lillard,Pts+Rebs,1.0,0.0,0.0
+Damian Lillard,Pts+Rebs+Asts,4.0,0.0,2.0
+Domantas Sabonis,Assists,1.0,0.0,0.0
+Domantas Sabonis,FG Attempted,1.0,0.0,0.0
+Domantas Sabonis,Fantasy Score,1.0,0.0,0.0
+Domantas Sabonis,Pts+Asts,3.0,0.0,0.0
+Domantas Sabonis,Pts+Rebs+Asts,4.0,0.0,2.0
+Anthony Edwards,FG Attempted,2.0,0.0,1.0
+Anthony Edwards,Fantasy Score,2.0,0.0,1.0
+Anthony Edwards,Pts+Asts,1.0,0.0,2.0
+Anthony Edwards,Pts+Rebs+Asts,2.0,0.0,4.0
+Jalen Williams,FG Attempted,1.0,0.0,0.0
+Jalen Williams,Fantasy Score,3.0,0.0,0.0
+Jalen Williams,Pts+Rebs+Asts,1.0,0.0,0.0
+Jalen Johnson,Fantasy Score,1.0,0.0,0.0
+Jalen Johnson,Pts+Asts,1.0,0.0,1.0
+Jalen Johnson,Pts+Rebs,1.0,0.0,1.0
+Jalen Johnson,Pts+Rebs+Asts,3.0,0.0,1.0
+DeMar DeRozan,FG Attempted,2.0,0.0,0.0
+DeMar DeRozan,Fantasy Score,1.0,0.0,0.0
+DeMar DeRozan,Pts+Asts,3.0,0.0,2.0
+DeMar DeRozan,Pts+Rebs,1.0,0.0,2.0
+DeMar DeRozan,Pts+Rebs+Asts,3.0,0.0,2.0
+Vince Williams Jr.,Fantasy Score,1.0,0.0,1.0
+Vince Williams Jr.,Pts+Rebs,1.0,0.0,0.0
+Vince Williams Jr.,Pts+Rebs+Asts,2.0,0.0,3.0
+Kelly Oubre Jr.,Pts+Asts,1.0,0.0,0.0
+Kelly Oubre Jr.,Pts+Rebs,1.0,0.0,0.0
+Kelly Oubre Jr.,Pts+Rebs+Asts,3.0,0.0,0.0
+Coby White,FG Attempted,2.0,0.0,0.0
+Coby White,Fantasy Score,0.0,0.0,1.0
+Coby White,Pts+Asts,3.0,0.0,2.0
+Coby White,Pts+Rebs,2.0,0.0,0.0
+Coby White,Pts+Rebs+Asts,1.0,0.0,3.0
+Nikola Jokic,FG Attempted,0.0,0.0,1.0
+Nikola Jokic,Fantasy Score,1.0,0.0,0.0
+Nikola Jokic,Pts+Asts,3.0,0.0,0.0
+Nikola Jokic,Pts+Rebs+Asts,2.0,0.0,3.0
+Paolo Banchero,FG Attempted,1.0,0.0,2.0
+Paolo Banchero,Fantasy Score,1.0,0.0,1.0
+Paolo Banchero,Pts+Asts,2.0,0.0,2.0
+Paolo Banchero,Pts+Rebs,0.0,0.0,1.0
+Paolo Banchero,Pts+Rebs+Asts,3.0,0.0,2.0
+Khris Middleton,Assists,1.0,0.0,0.0
+Khris Middleton,Fantasy Score,1.0,0.0,1.0
+Khris Middleton,Pts+Asts,2.0,0.0,3.0
+Khris Middleton,Pts+Rebs,0.0,0.0,3.0
+Khris Middleton,Pts+Rebs+Asts,3.0,0.0,2.0
+Zion Williamson,FG Attempted,1.0,1.0,0.0
+Zion Williamson,Pts+Asts,1.0,0.0,0.0
+Zion Williamson,Pts+Rebs,0.0,0.0,1.0
+Zion Williamson,Pts+Rebs+Asts,3.0,0.0,1.0
+Devin Booker,Fantasy Score,1.0,0.0,0.0
+Devin Booker,Pts+Asts,1.0,0.0,1.0
+Devin Booker,Pts+Rebs+Asts,3.0,0.0,1.0
+Victor Wembanyama,FG Attempted,2.0,1.0,0.0
+Victor Wembanyama,Fantasy Score,1.0,0.0,2.0
+Victor Wembanyama,Pts+Asts,2.0,0.0,0.0
+Victor Wembanyama,Pts+Rebs,2.0,0.0,0.0
+Victor Wembanyama,Pts+Rebs+Asts,3.0,0.0,0.0
+Bam Adebayo,FG Attempted,1.0,0.0,0.0
+Bam Adebayo,Fantasy Score,0.0,0.0,1.0
+Bam Adebayo,Pts+Asts,2.0,0.0,0.0
+Bam Adebayo,Pts+Rebs,0.0,0.0,1.0
+Bam Adebayo,Pts+Rebs+Asts,2.0,0.0,3.0
+Scottie Barnes,FG Attempted,1.0,0.0,0.0
+Scottie Barnes,Fantasy Score,2.0,0.0,2.0
+Scottie Barnes,Pts+Asts,1.0,0.0,2.0
+Scottie Barnes,Pts+Rebs+Asts,3.0,0.0,2.0
 Luka Doncic,Assists,1.0,0.0,0.0
 Luka Doncic,FG Attempted,2.0,0.0,0.0
-Luka Doncic,Pts+Asts,1.0,0.0,3.0
-Luka Doncic,Pts+Rebs+Asts,2.0,0.0,1.0
-Malcolm Brogdon,Pts+Asts,0.0,0.0,1.0
-Mikal Bridges,FG Attempted,2.0,0.0,0.0
-Mikal Bridges,Pts+Rebs+Asts,1.0,0.0,0.0
-Miles Bridges,FG Attempted,1.0,0.0,0.0
-Miles Bridges,Pts+Asts,4.0,0.0,0.0
-Miles Bridges,Pts+Rebs+Asts,2.0,0.0,2.0
-Nick Richards,Pts+Rebs+Asts,1.0,0.0,0.0
-Nikola Jokic,FG Attempted,0.0,0.0,1.0
-Nikola Vucevic,Pts+Rebs+Asts,0.0,0.0,2.0
-Paolo Banchero,FG Attempted,0.0,0.0,1.0
-Paolo Banchero,Pts+Asts,1.0,0.0,0.0
-Paolo Banchero,Pts+Rebs+Asts,2.0,0.0,1.0
-Paul George,Assists,1.0,0.0,0.0
-Reggie Jackson,Pts+Asts,1.0,0.0,1.0
-Saddiq Bey,Pts+Rebs+Asts,1.0,0.0,0.0
-Scottie Barnes,FG Attempted,1.0,0.0,0.0
-Scottie Barnes,Pts+Rebs+Asts,2.0,0.0,0.0
-Shai Gilgeous-Alexander,FG Attempted,1.0,0.0,1.0
-Shai Gilgeous-Alexander,Pts+Asts,6.0,0.0,1.0
-Shai Gilgeous-Alexander,Pts+Rebs+Asts,7.0,0.0,1.0
-Stephen Curry,Assists,1.0,0.0,0.0
-Stephen Curry,FG Attempted,0.0,1.0,0.0
-Stephen Curry,Pts+Asts,1.0,0.0,0.0
-Stephen Curry,Pts+Rebs+Asts,2.0,0.0,4.0
-Terry Rozier,Assists,2.0,0.0,0.0
-Terry Rozier,FG Attempted,1.0,0.0,1.0
-Terry Rozier,Pts+Asts,0.0,0.0,2.0
-Terry Rozier,Pts+Rebs+Asts,0.0,0.0,2.0
-Tobias Harris,Assists,1.0,0.0,0.0
-Tobias Harris,Pts+Asts,3.0,0.0,2.0
-Tobias Harris,Pts+Rebs+Asts,1.0,0.0,2.0
-Trae Young,Pts+Asts,0.0,0.0,1.0
-Trae Young,Pts+Rebs+Asts,0.0,0.0,1.0
-Tyler Herro,Pts+Rebs+Asts,1.0,0.0,0.0
-Tyrese Haliburton,Assists,3.0,0.0,0.0
-Tyrese Haliburton,Pts+Asts,1.0,0.0,0.0
-Tyrese Haliburton,Pts+Rebs+Asts,0.0,0.0,1.0
+Luka Doncic,Fantasy Score,2.0,0.0,0.0
+Luka Doncic,Pts+Asts,1.0,0.0,0.0
+Luka Doncic,Pts+Rebs,1.0,0.0,3.0
+Luka Doncic,Pts+Rebs+Asts,3.0,0.0,2.0
+Bradley Beal,Assists,0.0,0.0,1.0
+Bradley Beal,Pts+Asts,3.0,0.0,1.0
+Bradley Beal,Pts+Rebs,0.0,0.0,1.0
+Bradley Beal,Pts+Rebs+Asts,2.0,0.0,2.0
 Tyrese Maxey,Assists,1.0,0.0,0.0
-Tyrese Maxey,Pts+Asts,5.0,0.0,1.0
-Tyrese Maxey,Pts+Rebs+Asts,3.0,0.0,0.0
-Tyus Jones,Assists,1.0,0.0,2.0
-Tyus Jones,Pts+Asts,1.0,0.0,0.0
-Tyus Jones,Pts+Rebs+Asts,1.0,0.0,0.0
-Victor Wembanyama,FG Attempted,1.0,0.0,0.0
-Victor Wembanyama,Pts+Asts,1.0,0.0,0.0
-Victor Wembanyama,Pts+Rebs+Asts,1.0,0.0,0.0
+Tyrese Maxey,FG Attempted,1.0,0.0,1.0
+Tyrese Maxey,Fantasy Score,2.0,0.0,1.0
+Tyrese Maxey,Pts+Asts,2.0,0.0,1.0
+Tyrese Maxey,Pts+Rebs,3.0,0.0,0.0
+Tyrese Maxey,Pts+Rebs+Asts,3.0,0.0,1.0
+James Harden,Assists,1.0,0.0,1.0
+James Harden,Fantasy Score,1.0,0.0,0.0
+James Harden,Pts+Asts,2.0,0.0,2.0
+James Harden,Pts+Rebs,1.0,0.0,3.0
+James Harden,Pts+Rebs+Asts,0.0,0.0,2.0
+Lauri Markkanen,FG Attempted,1.0,0.0,0.0
+Lauri Markkanen,Fantasy Score,0.0,0.0,1.0
+Lauri Markkanen,Pts+Rebs,0.0,0.0,1.0
+Lauri Markkanen,Pts+Rebs+Asts,3.0,0.0,3.0
+Jonathan Kuminga,Pts+Asts,2.0,0.0,1.0
+Jonathan Kuminga,Pts+Rebs,2.0,0.0,1.0
+Jonathan Kuminga,Pts+Rebs+Asts,3.0,0.0,1.0
+Max Strus,Pts+Asts,2.0,0.0,2.0
+Max Strus,Pts+Rebs,3.0,0.0,1.0
+Max Strus,Pts+Rebs+Asts,1.0,0.0,0.0
+Donovan Mitchell,Assists,1.0,0.0,0.0
+Donovan Mitchell,FG Attempted,2.0,0.0,1.0
+Donovan Mitchell,Fantasy Score,0.0,0.0,1.0
+Donovan Mitchell,Pts+Asts,2.0,0.0,1.0
+Donovan Mitchell,Pts+Rebs,2.0,0.0,0.0
+Donovan Mitchell,Pts+Rebs+Asts,2.0,0.0,1.0
+Evan Mobley,Fantasy Score,1.0,0.0,0.0
+Evan Mobley,Pts+Asts,1.0,0.0,0.0
+Evan Mobley,Pts+Rebs,2.0,0.0,0.0
+Evan Mobley,Pts+Rebs+Asts,1.0,0.0,0.0
+Saddiq Bey,Fantasy Score,1.0,0.0,0.0
+Saddiq Bey,Pts+Rebs,2.0,0.0,0.0
+Saddiq Bey,Pts+Rebs+Asts,2.0,0.0,0.0
+Immanuel Quickley,Pts+Asts,2.0,0.0,0.0
+Immanuel Quickley,Pts+Rebs,1.0,0.0,0.0
+Immanuel Quickley,Pts+Rebs+Asts,1.0,0.0,0.0
+RJ Barrett,Pts+Asts,2.0,0.0,0.0
+RJ Barrett,Pts+Rebs,1.0,0.0,0.0
+RJ Barrett,Pts+Rebs+Asts,1.0,0.0,0.0
+Josh Giddey,Fantasy Score,0.0,0.0,2.0
+Josh Giddey,Pts+Rebs+Asts,0.0,0.0,1.0
+Joel Embiid,FG Attempted,0.0,0.0,1.0
+Joel Embiid,Pts+Rebs+Asts,2.0,0.0,0.0
+LaMelo Ball,FG Attempted,1.0,0.0,0.0
+LaMelo Ball,Fantasy Score,1.0,0.0,0.0
+LaMelo Ball,Pts+Asts,1.0,0.0,0.0
+LaMelo Ball,Pts+Rebs,2.0,0.0,0.0
+LaMelo Ball,Pts+Rebs+Asts,2.0,0.0,0.0
+Kyrie Irving,Assists,1.0,0.0,0.0
+Kyrie Irving,FG Attempted,0.0,0.0,1.0
+Kyrie Irving,Fantasy Score,1.0,0.0,0.0
+Kyrie Irving,Pts+Asts,2.0,0.0,1.0
+Kyrie Irving,Pts+Rebs+Asts,2.0,0.0,2.0
+Keegan Murray,Fantasy Score,2.0,0.0,0.0
+Keegan Murray,Pts+Rebs+Asts,1.0,0.0,1.0
+Kyle Kuzma,FG Attempted,1.0,0.0,0.0
+Kyle Kuzma,Fantasy Score,0.0,0.0,1.0
+Kyle Kuzma,Pts+Asts,1.0,0.0,0.0
+Kyle Kuzma,Pts+Rebs+Asts,2.0,0.0,0.0
+Kevin Huerter,Pts+Asts,1.0,0.0,0.0
+Kevin Huerter,Pts+Rebs+Asts,2.0,0.0,0.0
+Jaylen Brown,FG Attempted,1.0,0.0,1.0
+Jaylen Brown,Fantasy Score,1.0,0.0,0.0
+Jaylen Brown,Pts+Rebs+Asts,1.0,0.0,2.0
+Nick Richards,Fantasy Score,0.0,0.0,1.0
+Nick Richards,Pts+Asts,1.0,0.0,0.0
+Nick Richards,Pts+Rebs,2.0,0.0,0.0
+Nick Richards,Pts+Rebs+Asts,2.0,0.0,2.0
+Mikal Bridges,FG Attempted,2.0,0.0,1.0
+Mikal Bridges,Fantasy Score,2.0,0.0,0.0
+Mikal Bridges,Pts+Rebs,2.0,0.0,1.0
+Mikal Bridges,Pts+Rebs+Asts,2.0,0.0,1.0
+De'Aaron Fox,FG Attempted,2.0,0.0,1.0
+De'Aaron Fox,Fantasy Score,2.0,0.0,0.0
+De'Aaron Fox,Pts+Asts,1.0,0.0,0.0
+De'Aaron Fox,Pts+Rebs+Asts,2.0,0.0,0.0
+Cam Thomas,FG Attempted,2.0,0.0,0.0
+Cam Thomas,Fantasy Score,0.0,0.0,1.0
+Cam Thomas,Pts+Asts,1.0,0.0,0.0
+Cam Thomas,Pts+Rebs,1.0,0.0,1.0
+Cam Thomas,Pts+Rebs+Asts,1.0,0.0,1.0
+Cade Cunningham,FG Attempted,0.0,0.0,2.0
+Cade Cunningham,Pts+Rebs+Asts,1.0,0.0,0.0
+Tyler Herro,FG Attempted,1.0,0.0,0.0
+Tyler Herro,Pts+Asts,1.0,0.0,0.0
+Tyler Herro,Pts+Rebs,1.0,0.0,0.0
+Tyler Herro,Pts+Rebs+Asts,2.0,0.0,0.0
+Tyrese Haliburton,Assists,2.0,1.0,1.0
+Tyrese Haliburton,Pts+Asts,2.0,0.0,0.0
+Tyrese Haliburton,Pts+Rebs,1.0,0.0,0.0
+Tyrese Haliburton,Pts+Rebs+Asts,1.0,0.0,1.0
+Austin Reaves,Fantasy Score,1.0,0.0,0.0
+Austin Reaves,Pts+Asts,1.0,0.0,0.0
+Austin Reaves,Pts+Rebs+Asts,2.0,0.0,0.0
+Tre Jones,Fantasy Score,2.0,0.0,0.0
+Tre Jones,Pts+Rebs,1.0,0.0,0.0
+Tobias Harris,Assists,1.0,0.0,0.0
+Tobias Harris,Pts+Asts,2.0,0.0,2.0
+Tobias Harris,Pts+Rebs,1.0,0.0,2.0
+Tobias Harris,Pts+Rebs+Asts,0.0,1.0,0.0
+Trae Young,FG Attempted,0.0,0.0,1.0
+Trae Young,Fantasy Score,0.0,0.0,1.0
+Trae Young,Pts+Asts,0.0,0.0,1.0
+Trae Young,Pts+Rebs,0.0,0.0,2.0
+Trae Young,Pts+Rebs+Asts,0.0,0.0,1.0
+Wendell Carter Jr.,Fantasy Score,0.0,0.0,1.0
+Wendell Carter Jr.,Pts+Rebs,1.0,0.0,1.0
 Wendell Carter Jr.,Pts+Rebs+Asts,2.0,0.0,1.0
+Derrick Jones Jr.,Fantasy Score,1.0,0.0,0.0
+Derrick Jones Jr.,Pts+Rebs+Asts,2.0,0.0,0.0
+Andrew Nembhard,Assists,0.0,0.0,2.0
+Simone Fontecchio,Fantasy Score,0.0,0.0,2.0
+Simone Fontecchio,Pts+Asts,1.0,0.0,0.0
+Simone Fontecchio,Pts+Rebs,2.0,0.0,1.0
+Derrick White,Fantasy Score,2.0,0.0,0.0
+Tyus Jones,Assists,1.0,0.0,2.0
+Tyus Jones,Fantasy Score,0.0,0.0,1.0
+Tyus Jones,Pts+Asts,1.0,0.0,1.0
+Tyus Jones,Pts+Rebs+Asts,1.0,0.0,0.0
+Luguentz Dort,Fantasy Score,1.0,0.0,0.0
+Luguentz Dort,Pts+Rebs,1.0,0.0,0.0
+Luguentz Dort,Pts+Rebs+Asts,1.0,0.0,0.0
+Malik Beasley,Pts+Rebs+Asts,0.0,0.0,1.0
+Kris Dunn,Assists,0.0,0.0,1.0
+Kristaps Porzingis,FG Attempted,0.0,0.0,1.0
+Kristaps Porzingis,Pts+Rebs,1.0,0.0,0.0
+Klay Thompson,FG Attempted,0.0,0.0,1.0
+Klay Thompson,Pts+Asts,0.0,0.0,1.0
+Klay Thompson,Pts+Rebs,1.0,0.0,0.0
+Klay Thompson,Pts+Rebs+Asts,1.0,0.0,1.0
 Xavier Tillman,Assists,1.0,0.0,0.0
-Zach Collins,Pts+Asts,1.0,0.0,0.0
-Zach Collins,Pts+Rebs+Asts,1.0,0.0,0.0
-Zion Williamson,Pts+Rebs+Asts,3.0,0.0,0.0
+Xavier Tillman,Pts+Asts,1.0,0.0,0.0
+Xavier Tillman,Pts+Rebs,1.0,0.0,0.0
+Xavier Tillman,Pts+Rebs+Asts,1.0,0.0,0.0
+Walker Kessler,Pts+Rebs,1.0,0.0,0.0
+Taurean Prince,Fantasy Score,1.0,0.0,0.0
+Precious Achiuwa,Pts+Rebs,1.0,0.0,0.0
+Paul Reed,Fantasy Score,0.0,0.0,1.0
+Paul George,Assists,1.0,0.0,0.0
+Paul George,Pts+Asts,0.0,0.0,1.0
+Paul George,Pts+Rebs,1.0,0.0,0.0
+Paul George,Pts+Rebs+Asts,1.0,0.0,0.0
+Pascal Siakam,Fantasy Score,1.0,0.0,0.0
+Pascal Siakam,Pts+Rebs+Asts,0.0,0.0,1.0
+Rudy Gobert,Pts+Rebs+Asts,1.0,0.0,0.0
+Scoot Henderson,Pts+Asts,1.0,0.0,0.0
+Scoot Henderson,Pts+Rebs+Asts,0.0,0.0,1.0
+Spencer Dinwiddie,Fantasy Score,1.0,0.0,0.0
+Russell Westbrook,Assists,1.0,0.0,0.0
+Russell Westbrook,Pts+Asts,0.0,0.0,1.0
+Russell Westbrook,Pts+Rebs+Asts,0.0,0.0,1.0
+P.J. Washington,Pts+Asts,0.0,0.0,1.0
+Michael Porter Jr.,Fantasy Score,1.0,0.0,0.0
+Michael Porter Jr.,Pts+Rebs,0.0,0.0,1.0
+Al Horford,Pts+Rebs,1.0,0.0,1.0
+Daniel Gafford,Pts+Rebs,1.0,0.0,0.0
+Daniel Gafford,Pts+Rebs+Asts,1.0,0.0,0.0
+Dejounte Murray,Assists,1.0,1.0,0.0
+Dejounte Murray,FG Attempted,0.0,0.0,1.0
+Dejounte Murray,Fantasy Score,1.0,0.0,0.0
+Dejounte Murray,Pts+Rebs,1.0,0.0,1.0
+Deandre Ayton,Fantasy Score,0.0,0.0,1.0
+Darius Garland,Pts+Rebs,0.0,0.0,1.0
+Darius Garland,Pts+Rebs+Asts,0.0,0.0,1.0
+Collin Sexton,FG Attempted,1.0,0.0,1.0
+Collin Sexton,Pts+Asts,1.0,0.0,0.0
+Collin Sexton,Pts+Rebs,1.0,0.0,0.0
+Chet Holmgren,Pts+Rebs+Asts,0.0,0.0,1.0
+Cameron Johnson,Pts+Rebs,1.0,0.0,0.0
+Deni Avdija,Pts+Asts,0.0,0.0,1.0
+Deni Avdija,Pts+Rebs+Asts,0.0,0.0,1.0
+Dennis Schroder,Assists,0.0,0.0,1.0
+Draymond Green,Fantasy Score,0.0,0.0,1.0
+Draymond Green,Pts+Rebs,1.0,0.0,0.0
+Donte DiVincenzo,FG Attempted,1.0,0.0,0.0
+Donte DiVincenzo,Fantasy Score,1.0,0.0,1.0
+Donte DiVincenzo,Pts+Rebs,0.0,0.0,1.0
+Donte DiVincenzo,Pts+Rebs+Asts,0.0,0.0,1.0
+Desmond Bane,Fantasy Score,1.0,0.0,0.0
+Dereck Lively II,Fantasy Score,0.0,0.0,1.0
+Dereck Lively II,Pts+Rebs,1.0,0.0,0.0
+Dereck Lively II,Pts+Rebs+Asts,1.0,0.0,0.0
+Ayo Dosunmu,Fantasy Score,1.0,0.0,0.0
+Ayo Dosunmu,Pts+Asts,0.0,0.0,1.0
+Ayo Dosunmu,Pts+Rebs+Asts,0.0,0.0,1.0
+Ausar Thompson,Fantasy Score,0.0,0.0,1.0
+Anfernee Simons,Assists,0.0,1.0,0.0
+Anfernee Simons,FG Attempted,1.0,0.0,1.0
+Anfernee Simons,Fantasy Score,0.0,0.0,1.0
+Anfernee Simons,Pts+Asts,1.0,0.0,1.0
+Anfernee Simons,Pts+Rebs+Asts,1.0,0.0,0.0
+Andrew Wiggins,Pts+Rebs,1.0,0.0,0.0
+Ben Simmons,Fantasy Score,0.0,0.0,1.0
+Bojan Bogdanovic,Pts+Asts,1.0,0.0,1.0
+Bojan Bogdanovic,Pts+Rebs,0.0,0.0,1.0
+Bojan Bogdanovic,Pts+Rebs+Asts,1.0,0.0,1.0
+Cam Reddish,Fantasy Score,1.0,0.0,0.0
+CJ McCollum,Pts+Asts,1.0,0.0,0.0
+CJ McCollum,Pts+Rebs,1.0,0.0,0.0
+CJ McCollum,Pts+Rebs+Asts,1.0,0.0,0.0
+Buddy Hield,Fantasy Score,0.0,0.0,1.0
+Bruce Brown,Pts+Rebs+Asts,0.0,0.0,1.0
+Brook Lopez,Fantasy Score,1.0,0.0,1.0
+Brook Lopez,Pts+Asts,1.0,0.0,0.0
+Brook Lopez,Pts+Rebs+Asts,1.0,0.0,0.0
+Jordan Clarkson,Pts+Asts,1.0,0.0,0.0
+Jordan Clarkson,Pts+Rebs+Asts,1.0,0.0,0.0
+Jonas Valanciunas,Fantasy Score,1.0,0.0,0.0
+Jimmy Butler,FG Attempted,1.0,0.0,0.0
+Jimmy Butler,Pts+Asts,1.0,0.0,0.0
+Jimmy Butler,Pts+Rebs,1.0,0.0,0.0
+Jimmy Butler,Pts+Rebs+Asts,1.0,0.0,1.0
+Jerami Grant,Fantasy Score,0.0,0.0,1.0
+Franz Wagner,FG Attempted,1.0,0.0,0.0
+Jordan Poole,Pts+Asts,1.0,0.0,0.0
+Jordan Poole,Pts+Rebs+Asts,1.0,0.0,0.0
+Keyonte George,Pts+Asts,0.0,0.0,1.0
+Kevon Looney,Fantasy Score,0.0,0.0,1.0
+Kevin Durant,FG Attempted,1.0,0.0,1.0
+Kevin Durant,Fantasy Score,1.0,0.0,0.0
+Kevin Durant,Pts+Rebs+Asts,0.0,0.0,1.0
+Kelly Olynyk,Pts+Asts,0.0,0.0,1.0
+Kelly Olynyk,Pts+Rebs+Asts,0.0,0.0,1.0
+Keldon Johnson,Pts+Asts,1.0,0.0,0.0
+Keldon Johnson,Pts+Rebs,1.0,0.0,0.0
+Keldon Johnson,Pts+Rebs+Asts,1.0,0.0,0.0
+Karl-Anthony Towns,Fantasy Score,1.0,0.0,0.0
+Karl-Anthony Towns,Pts+Rebs+Asts,1.0,0.0,1.0
+Jusuf Nurkic,Fantasy Score,0.0,0.0,1.0
+Julian Champagnie,Fantasy Score,1.0,0.0,0.0
+Josh Hart,Pts+Rebs+Asts,0.0,0.0,1.0
+Josh Green,Fantasy Score,0.0,0.0,1.0
+Jabari Smith Jr.,Pts+Asts,0.0,0.0,1.0
+Jabari Smith Jr.,Pts+Rebs+Asts,1.0,0.0,1.0
+Ja Morant,FG Attempted,1.0,0.0,0.0
+Ja Morant,Pts+Rebs+Asts,1.0,0.0,0.0
+Ivica Zubac,Pts+Rebs,1.0,0.0,1.0
+Ivica Zubac,Pts+Rebs+Asts,1.0,0.0,0.0
+Isaiah Hartenstein,Pts+Rebs+Asts,0.0,0.0,1.0
+Isaac Okoro,Fantasy Score,0.0,0.0,1.0
+Isaac Okoro,Pts+Rebs,1.0,0.0,1.0
+Herbert Jones,Pts+Asts,0.0,0.0,1.0
+Herbert Jones,Pts+Rebs,0.0,0.0,1.0
+Harrison Barnes,Fantasy Score,1.0,0.0,0.0
+Grayson Allen,Fantasy Score,1.0,0.0,1.0
+Grant Williams,Pts+Asts,0.0,0.0,1.0
+Grant Williams,Pts+Rebs,0.0,0.0,1.0
+Grant Williams,Pts+Rebs+Asts,0.0,0.0,1.0
+Gary Trent Jr.,Fantasy Score,0.0,0.0,1.0
+Fred VanVleet,FG Attempted,1.0,0.0,0.0
+Fred VanVleet,Fantasy Score,0.0,0.0,1.0
+Fred VanVleet,Pts+Rebs,1.0,0.0,0.0
+Jalen Green,FG Attempted,0.0,0.0,1.0
+Jalen Green,Fantasy Score,0.0,0.0,1.0
+Jalen Green,Pts+Asts,0.0,0.0,1.0
+Jalen Green,Pts+Rebs,0.0,0.0,1.0
+Jaime Jaquez Jr.,Fantasy Score,0.0,0.0,1.0
+Jaden McDaniels,Fantasy Score,0.0,0.0,1.0

@@ -14,9 +14,9 @@ import torch.nn.functional as F
 import torch.nn as nn
 import transformers
 from transformers import get_linear_schedule_with_warmup
-from sklearn.preprocessing import StandardScaler
+# from sklearn.preprocessing import StandardScaler
 from transformers import AdamW
-sys.path.insert(1, os.path.join(sys.path[0], '../..'))
+# sys.path.insert(1, os.path.join(sys.path[0], '../..'))
 from src.ProcessData.Get_Data import get_player_id
 from src.Utils.Dictionaries import confidence_intervals, cat_to_metric, pos_id, metric_to_cat
 
@@ -178,7 +178,7 @@ def create_training_tensor_lstm(target, pp_eval=False):
     game_stats=['FGM', 'FGA','FG_PCT','FG3M','FG3A','FG3_PCT','FTM','FTA',
         'FT_PCT','OREB','DREB','REB','AST','TOV','STL','BLK','BLKA','PF','PTS','PFD','PLUS_MINUS',
         'NBA_FANTASY_PTS','DD2','TD3']
-    con = sqlite3.connect("../../Data/games.sqlite")
+    con = sqlite3.connect("Data/games.sqlite")
     last_n = 10
     df = pd.DataFrame(columns=['PLAYER_ID','DATE'])
     # player_lstm_df = pd.DataFrame(columns=['PLAYER_ID', 'PLAYER_TENSOR'])
@@ -239,7 +239,7 @@ def concat_tensors(x, y):
 
 def create_total_train_tensor():
     season_array = ["2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23"]
-    con = sqlite3.connect("../../Data/games.sqlite")
+    con = sqlite3.connect("Data/games.sqlite")
     total_df = pd.DataFrame
     for season in tqdm(season_array):
         szn_lstm_df = pd.read_sql_query(f"select * from \"games_{season}_lstm\"", con, index_col="index")
@@ -266,7 +266,7 @@ def create_total_train_tensor():
 
 def lstm_preprocessing(target):
     # df gets passed in here
-    con = sqlite3.connect("../../Data/games.sqlite")
+    con = sqlite3.connect("Data/games.sqlite")
     create_training_tensor_lstm(target)
     create_total_train_tensor()
     
